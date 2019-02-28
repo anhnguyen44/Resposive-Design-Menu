@@ -1,0 +1,54 @@
+/*Computer (1920 x 1080)*/
+@media screen and (max-width:1920px){
+
+}
+
+/*Ipad ngang (1024 x 768)*/
+@media screen and (max-width: 1024px) {
+}
+
+/*Breakpoint*/
+@media screen and (max-width: 960px){
+	#wrapper{
+		width: 100%
+	}
+	/*a#menu_res{
+		display: block;
+	}
+	#menu{
+		display: none;
+	}*/
+}
+
+/*Ipad doc (768 x 1024)*/
+@media screen and (max-width: 768px) {
+	a#menu_res_icon{
+		display: block;
+	}
+	#menu{
+		display: none;
+	}
+	#logo{
+		float: none;
+		text-align: center;
+		margin: 0px auto;
+	}
+}
+
+/*Tablet nho (480 x 640)*/
+@media screen and (max-width: 480px) {
+	#content{
+		width: 100%;
+	}
+	#sidebar{
+		width: 100%;
+	}
+}
+
+/*Iphone (480 x 640)*/
+@media screen and (max-width: 320px) {
+}
+
+/*Smartphone nho*/
+@media screen and (max-width: 240px) {
+}
